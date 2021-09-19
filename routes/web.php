@@ -19,4 +19,6 @@ Route::get('/', function () {
 });
 
 Auth::routes();
+
+//User
 Route::get('/admin/dashboard', [HomeController::class, 'index'])->name('dashboard');
