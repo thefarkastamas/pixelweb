@@ -19,5 +19,4 @@ Route::get('/', function () {
 });
 
 Auth::routes();
-
 Route::get('/admin/dashboard', [HomeController::class, 'index'])->name('dashboard');
